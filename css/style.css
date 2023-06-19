@@ -1,0 +1,39 @@
+*, *::before, *::after {
+	/* box-sizing: border-box; */
+}
+
+ul, ol, li {
+	list-style: none;
+}
+
+.container {
+	max-width: 900px;
+	margin: 50px auto 0;
+	padding: 0 15px;
+}
+
+.elem {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	/* width: 300px;
+	height: 200px;
+	margin: 50px auto;
+	padding: 25px;
+	background: #CFF5BF;
+	border: 25px solid #F0D7A1;
+	overflow: auto;
+	text-align: justify; */
+}
+[data-bg='green'] {
+	background-color: orange;
+}
+
+[data-bg='red'] {
+	background-color: rosybrown;
+}
+
+[data-bg='blue'] {
+	background-color: blue;
+}
+
